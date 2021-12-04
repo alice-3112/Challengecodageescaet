@@ -1,0 +1,113 @@
+/* Write some CSS below */
+body{
+	font-family: Overpass;
+	font-size: 18 px;
+	color:  rgb(30, 30, 30);
+	background-color: rgb(201, 138, 86);
+	margin: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1, h2, h3, h4 h5{
+	font-family: Chivo;
+}
+
+h6{
+	font-size: 18px;
+}
+
+.banner{
+	text-align: center;
+	background-image: url(images/bannière1.jpg);
+	background-position: center;
+	background-size: cover;
+	padding: 100px 0px;
+	color: white;
+}
+
+.banner h1{
+	font-size: 45px;
+}
+
+.banner p{
+	font-size: 30px;
+}
+
+.card-white img {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+}
+
+.card-white {
+	background-color: white;
+	width: 220px;
+	padding: 24px;
+	text-align: center;
+	margin-bottom: 8px;
+	border-radius: 4px;
+	box-shadow: 0px 0px 16px rgba(0,0,0,0.1);
+}
+
+.container {
+	width: 1100px;
+	margin: auto;
+}
+
+.footer {
+	text-align: center;
+	background-color: rgb(150, 150, 150);
+	padding: 16px;
+}
+
+.Logo{
+	text-align: center;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
+
+.containerbis {
+	width: 1100px;
+	margin: auto;
+}
+
+.containerbis h4 {
+	font-size: 24px;
+}
+
+.cardsbis {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 16px;	
+
+}
+
+.containerter{
+	width: 1100px;
+	margin: auto;
+}
+
+.containerter h5{
+	font-size: 24px;
+}
+
+.cardster{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
+
+.btn-yellow{
+	color: white;
+	background-color: black;
+	padding: 8px 18px;
+}
+
+
